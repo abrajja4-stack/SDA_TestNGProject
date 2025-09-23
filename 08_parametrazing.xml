@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="parametrizing1">
+        <parameter name="username" value="tomhawk"></parameter>
+        <parameter name="password" value="tomhawk123"></parameter>
+        <parameter name="comment" value="This comment come from xml file!"></parameter>
+        <classes>
+            <class name="tests.day01.C13_Parameters"> </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="parametrizing2">
+        <parameter name="username" value="maristar"></parameter>
+        <parameter name="password" value="mairy123"></parameter>
+        <parameter name="comment" value="This comment come from mairy used xml file!"></parameter>
+        <classes>
+            <class name="tests.day01.C13_Parameters"> </class>
+        </classes>
+    </test>
+</suite>

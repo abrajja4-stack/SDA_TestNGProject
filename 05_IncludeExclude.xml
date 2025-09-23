@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="Include _ Exclude">
+        <groups>
+            <run>
+                <include name="A"> </include>
+                <exclude name="B"> </exclude>
+            </run>
+        </groups>
+        <classes>
+            <class name="tests.day01.C07_Groups"></class>
+            <class name="tests.day01.C02_Priorty"></class>
+        </classes>
+
+    </test>
+</suite>

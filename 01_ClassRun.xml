@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- This is a comment lin -->
+<suite name="My Test Suit">
+
+    <test name="Annotations Test">
+        <classes>
+            <class name="tests.day01.C01_Annotation"> </class>
+        </classes>
+    </test>
+
+</suite>
